@@ -1,0 +1,26 @@
+package eg_casting;
+
+public class CastingDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * Casting/Type casting - conversion of one data type to another
+		 * 
+		 * 2 types of casting
+		 * implicit casting - taken care by the java compiler implicitly when the smaller data type is assigne to the large
+		 * 
+		 */
+
+		
+		int x = 100;
+		float m=x;
+		System.out.println("x = " +x);
+		System.out.println("m= " +m);
+		m=89.975f;
+		System.out.println("m = "+m);
+		double d= m;
+		System.out.println("d = " +d);
+	}
+
+}
